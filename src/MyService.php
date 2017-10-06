@@ -8,7 +8,7 @@ use Nikolag\Myservice\Models\Customer;
 use Nikolag\Myservice\MyConfig;
 use Nikolag\Myservice\Utils\Constants;
 
-class SquareService extends CorePaymentService implements MyServiceContract
+class MyService extends CorePaymentService implements MyServiceContract
 {
     public function __construct(MyConfig $myConfig)
     {
