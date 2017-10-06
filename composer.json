@@ -1,0 +1,65 @@
+{
+    "name": "nikolag/nikolag",
+    "description": "Implementation example for nikolag/core",
+    "keywords": ["nikolag", "nikolag-core", "payment-integration", "laravel-package"],
+    "license": "MIT",
+    "type": "laravel-package",
+    "authors": [{
+        "name": "Nikola Gavric",
+        "email": "nikola.gavric94@gmail.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "nikolag/core": "1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "3.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikolag\\Myservice\\": "src/",
+            "Nikolag\\Myservice\\Contracts\\": "src/contracts",
+            "Nikolag\\Myservice\\Exceptions\\": "src/exceptions",
+            "Nikolag\\Myservice\\Facades\\": "src/facades",
+            "Nikolag\\Myservice\\Models\\": "src/models",
+            "Nikolag\\Myservice\\Providers\\": "src/providers",
+            "Nikolag\\Myservice\\Traits\\": "src/traits",
+            "Nikolag\\Myservice\\Utils\\": "src/utils"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nikolag\\Myservice\\": "src/",
+            "Nikolag\\Myservice\\Contracts\\": "src/contracts",
+            "Nikolag\\Myservice\\Exceptions\\": "src/exceptions",
+            "Nikolag\\Myservice\\Facades\\": "src/facades",
+            "Nikolag\\Myservice\\Models\\": "src/models",
+            "Nikolag\\Myservice\\Providers\\": "src/providers",
+            "Nikolag\\Myservice\\Traits\\": "src/traits",
+            "Nikolag\\Myservice\\Utils\\": "src/utils",
+            "Nikolag\\Myservice\\Tests\\": "tests/",
+            "Nikolag\\Myservice\\Tests\\Models\\": "tests/classes/"
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "php artisan vendor:publish --tag=nikolag_config"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nikolag\\Myservice\\Providers\\MyServiceProvider"
+            ],
+            "aliases": {
+                "MyService": "Nikolag\\Myservice\\Facades\\MyService"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
