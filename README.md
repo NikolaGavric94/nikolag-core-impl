@@ -1,5 +1,5 @@
 nikolag/nikolag 
-[![Build Status](https://travis-ci.org/NikolaGavric94/nikolag-core-impl.svg)](https://travis-ci.org/NikolaGavric94/nikolag-core-impl)
+[![Build Status](https://travis-ci.org/NikolaGavric94/nikolag-core-impl.svg?branch=master)](https://travis-ci.org/NikolaGavric94/nikolag-core-impl)
 [![Latest Stable Version](https://poser.pugx.org/nikolag/nikolag/v/stable)](https://packagist.org/packages/nikolag/nikolag) 
 [![Total Downloads](https://poser.pugx.org/nikolag/nikolag/downloads)](https://packagist.org/packages/nikolag/nikolag) 
 [![License](https://poser.pugx.org/nikolag/nikolag/license)](https://packagist.org/packages/nikolag/nikolag) 
