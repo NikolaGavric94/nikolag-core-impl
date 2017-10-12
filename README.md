@@ -1,5 +1,5 @@
 nikolag/nikolag 
-[![Build Status](https://travis-ci.org/NikolaGavric94/nikolag-core-impl.svg?branch=master)](https://travis-ci.org/NikolaGavric94/nikolag-core-impl) 
+[![Build Status](https://travis-ci.org/NikolaGavric94/nikolag-core-starter.svg?branch=master)](https://travis-ci.org/NikolaGavric94/nikolag-core-impl) 
 [![License](https://poser.pugx.org/nikolag/nikolag/license)](https://packagist.org/packages/nikolag/nikolag) 
 =========
 Example integration with dummy payment service compatible with Laravel 5.5.x built on [nikolag/core](https://github.com/NikolaGavric94/nikolag-core/)
@@ -7,9 +7,7 @@ Example integration with dummy payment service compatible with Laravel 5.5.x bui
 ---
 
 ## Usage
-Run `composer update` once you download/clone this repository.
-
-Follow [nikolag/core README.md](https://github.com/NikolaGavric94/nikolag-core/) for guidance while building your own payment integration. 
+Clone this repository and follow [nikolag/core README.md](https://github.com/NikolaGavric94/nikolag-core/) for guidance on building your own payment integration. 
 
 If you come accross any issues or you have any questions, contact me at nikola.gavric94@gmail.com
 
