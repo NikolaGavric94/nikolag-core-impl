@@ -1,6 +1,5 @@
 nikolag/nikolag 
 [![Build Status](https://travis-ci.org/NikolaGavric94/nikolag-core-starter.svg?branch=master)](https://travis-ci.org/NikolaGavric94/nikolag-core-impl) 
-[![License](https://poser.pugx.org/nikolag/nikolag/license)](https://packagist.org/packages/nikolag/nikolag) 
 =========
 Example integration with dummy payment service compatible with Laravel 5.5.x built on [nikolag/core](https://github.com/NikolaGavric94/nikolag-core/)
 
